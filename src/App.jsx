@@ -2,13 +2,15 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 
+import LandingPage from "./pages/LandingPage";
+
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
     <div className="wrapper">
-      <h1>Hello world</h1>
+      <LandingPage />
     </div>
       {/* <div>
         <a href="https://vitejs.dev" rel="noreferrer" target="_blank">
