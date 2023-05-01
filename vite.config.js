@@ -11,5 +11,12 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     setupFiles: './tests/setup.js',
-  }
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        // additionalData: `@import "./src/styles/sass/_main.scss";`
+      },
+    },
+  },
 })
